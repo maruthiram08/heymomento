@@ -327,17 +327,10 @@
 
             <div class="relative w-full aspect-video rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#0c0c0e]">
 
-                <!-- Dark map background - Using CSS gradient pattern for now -->
-                <div class="absolute inset-0 w-full h-full"
-                     style="background:
-                        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px),
-                        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
-                        radial-gradient(circle at 30% 40%, rgba(244,63,94,0.08) 0%, transparent 50%),
-                        radial-gradient(circle at 65% 60%, rgba(99,102,241,0.08) 0%, transparent 50%),
-                        #0c0c0e;
-                        background-size: 50px 50px, 50px 50px, 100% 100%, 100% 100%, 100% 100%;
-                        opacity: 0.6;">
-                </div>
+                <!-- Dark map background - Bangalore, India -->
+                <img src="https://api.mapbox.com/styles/v1/maruthiram/cmiojbbzs000f01qv8bcjdk0o/static/77.5946,12.9716,10/1920x1080@2x?access_token=pk.eyJ1IjoibWFydXRoaXJhbSIsImEiOiJjbWloZGZvemIwN2d2M2ZyMXM0cGF4dnlxIn0.SuN_73QTIRlD2l3qmfvSfg"
+                     alt="Dark map of Bangalore, India"
+                     class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale contrast-125" />
 
                 <!-- Pins -->
                 <div class="absolute top-[40%] left-[30%] group">
