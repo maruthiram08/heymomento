@@ -1,0 +1,17 @@
+{
+    "name": "Momento",
+    "short_name": "Momento",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#050507",
+    "theme_color": "#050507",
+    "description": "Leave cinematic real-world memories for the people you love — tied to places that matter.",
+    "icons": [
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
